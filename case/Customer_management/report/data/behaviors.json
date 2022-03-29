@@ -1,0 +1,57 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "获取用户信息接口",
+    "children" : [ {
+      "name" : "01.登录获取token",
+      "children" : [ {
+        "name" : "test_getUserInfo",
+        "uid" : "131abad8b8bae8bb",
+        "parentUid" : "47158ada546b674b747fccb7ff3f344c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648555653856,
+          "stop" : 1648555654108,
+          "duration" : 252
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "47158ada546b674b747fccb7ff3f344c"
+    }, {
+      "name" : "02.获取经销商信息下拉列表",
+      "children" : [ {
+        "name" : "test_agent_selectList",
+        "uid" : "9f3a973f598a4a53",
+        "parentUid" : "8d281a38cfe0de3a7419092a1540a090",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648555654168,
+          "stop" : 1648555655028,
+          "duration" : 860
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d281a38cfe0de3a7419092a1540a090"
+    }, {
+      "name" : "03.数据面板数据接口测试",
+      "children" : [ {
+        "name" : "test_statistics",
+        "uid" : "d4be006251efa5d1",
+        "parentUid" : "6a2bafd43ef59feff5e04690b3499380",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648555655087,
+          "stop" : 1648555655187,
+          "duration" : 100
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6a2bafd43ef59feff5e04690b3499380"
+    } ],
+    "uid" : "c8180fe3e57d47eae9f825139a9d35bf"
+  } ],
+  "name" : "behaviors"
+}

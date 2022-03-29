@@ -1,0 +1,49 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "kevinwudeMacBook-Pro.local",
+    "children" : [ {
+      "name" : "68218-MainThread",
+      "children" : [ {
+        "name" : "test_agent_selectList",
+        "uid" : "9f3a973f598a4a53",
+        "parentUid" : "1176b1f1c4f4fbd2283b9d84a2fbd7e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648555654168,
+          "stop" : 1648555655028,
+          "duration" : 860
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_getUserInfo",
+        "uid" : "131abad8b8bae8bb",
+        "parentUid" : "1176b1f1c4f4fbd2283b9d84a2fbd7e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648555653856,
+          "stop" : 1648555654108,
+          "duration" : 252
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_statistics",
+        "uid" : "d4be006251efa5d1",
+        "parentUid" : "1176b1f1c4f4fbd2283b9d84a2fbd7e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648555655087,
+          "stop" : 1648555655187,
+          "duration" : 100
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1176b1f1c4f4fbd2283b9d84a2fbd7e5"
+    } ],
+    "uid" : "521751ab8979c9299aa7cbe33c20a187"
+  } ],
+  "name" : "timeline"
+}
