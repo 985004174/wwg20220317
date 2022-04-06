@@ -10,8 +10,7 @@ import pytest
 from pymysql.cursors import DictCursor
 
 
-db_adress={'host':'rm-wz9r8j008062a230r.mysql.rds.aliyuncs.com','database':'css_llp_one_stg','user':'hllcrm_dev','password':'sjnI6FCfHhF0YuJ8_IG3','port':3306}
-
+# db_adress=
 sql='select id,user_id,company_id,user_name from agent where user_id=398363'
 class Db_Action():
     def __init__(self,db_adress):
