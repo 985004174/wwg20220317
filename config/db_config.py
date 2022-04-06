@@ -61,11 +61,9 @@ class Db_Action():
 
 
 
-        # db_adress = {'host': 'rm-wz9r8j008062a230r.mysql.rds.aliyuncs.com', 'database': 'css_llp_one_stg',
-        #              'user': 'hllcrm_dev', 'password': 'sjnI6FCfHhF0YuJ8_IG3', 'port': 3306}
+
 
 def con_db(db_adress):
-    # con = pymysql.connect(host='rm-wz9r8j008062a230r.mysql.rds.aliyuncs.com',database='css_llp_one_stg',user='hllcrm_dev',password='sjnI6FCfHhF0YuJ8_IG3',port=3306)
     con = pymysql.connect(**db_adress)
     # print(type(con))
     cursor=con.cursor(cursor=DictCursor)
