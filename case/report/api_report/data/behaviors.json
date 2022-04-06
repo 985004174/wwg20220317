@@ -1,0 +1,41 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "登录模块",
+    "children" : [ {
+      "name" : "01.基于token获取个人信息接口",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "7678db0e2a61eb60",
+        "parentUid" : "64405b21b5252472740f1bded63621ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649068586630,
+          "stop" : 1649068586761,
+          "duration" : 131
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "64405b21b5252472740f1bded63621ba"
+    }, {
+      "name" : "02.获取商品信息接口",
+      "children" : [ {
+        "name" : "test_getgodsinfo",
+        "uid" : "323fbdcad74b650e",
+        "parentUid" : "407a6f3d515158673b8d4139e3fd8837",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649068586766,
+          "stop" : 1649068586766,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "407a6f3d515158673b8d4139e3fd8837"
+    } ],
+    "uid" : "6958045a481574bf02bb11ef07a7047b"
+  } ],
+  "name" : "behaviors"
+}

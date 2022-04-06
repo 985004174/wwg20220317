@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "kevinwudeMacBook-Pro.local",
+    "children" : [ {
+      "name" : "39001-MainThread",
+      "children" : [ {
+        "name" : "test_getgodsinfo",
+        "uid" : "323fbdcad74b650e",
+        "parentUid" : "82675e3d74cfe4e1f313853ba9f79f58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649068586766,
+          "stop" : 1649068586766,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "7678db0e2a61eb60",
+        "parentUid" : "82675e3d74cfe4e1f313853ba9f79f58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649068586630,
+          "stop" : 1649068586761,
+          "duration" : 131
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "82675e3d74cfe4e1f313853ba9f79f58"
+    } ],
+    "uid" : "521751ab8979c9299aa7cbe33c20a187"
+  } ],
+  "name" : "timeline"
+}

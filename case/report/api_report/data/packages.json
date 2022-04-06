@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "demo01",
+    "children" : [ {
+      "name" : "test_login",
+      "uid" : "7678db0e2a61eb60",
+      "parentUid" : "588a51bc2834bd934e001a2efb3b822f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649068586630,
+        "stop" : 1649068586761,
+        "duration" : 131
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_getgodsinfo",
+      "uid" : "323fbdcad74b650e",
+      "parentUid" : "588a51bc2834bd934e001a2efb3b822f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649068586766,
+        "stop" : 1649068586766,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "588a51bc2834bd934e001a2efb3b822f"
+  } ],
+  "name" : "packages"
+}

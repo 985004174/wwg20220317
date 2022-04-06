@@ -1,0 +1,37 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "demo01",
+    "children" : [ {
+      "name" : "Test_Loggin",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "7678db0e2a61eb60",
+        "parentUid" : "3f08c152d2f6e48ea7be17b6bdf0b39d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649068586630,
+          "stop" : 1649068586761,
+          "duration" : 131
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_getgodsinfo",
+        "uid" : "323fbdcad74b650e",
+        "parentUid" : "3f08c152d2f6e48ea7be17b6bdf0b39d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649068586766,
+          "stop" : 1649068586766,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3f08c152d2f6e48ea7be17b6bdf0b39d"
+    } ],
+    "uid" : "fbb11ee60fead4e8d0ea3f4904cb025e"
+  } ],
+  "name" : "suites"
+}
