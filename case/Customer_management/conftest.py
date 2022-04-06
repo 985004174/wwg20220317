@@ -7,7 +7,7 @@ import json
 
 import pytest
 
-from config.url_config import URL
+from config.url_config import URL_ADMIN
 
 
 from Api_keywords.api_key import ApiKey
@@ -15,21 +15,21 @@ from Api_keywords.api_key import ApiKey
 
 @pytest.fixture(scope='session')
 def token_fix():
+    "登录token"
     ak = ApiKey()
-    token='gEh3t9xmEafGujdcvXOm3JIpoLrs6Kf+ouWMu8Pwsr9FVPYu4gwgxm9UjixPGaUi+3mW8P5tQ2aW6G+1IuPBNQR3VcXWBnrxV2MY+fPmbnVi44kOJpPjvk6Ln+aFCZCirCXFDUWv31EjrP/ald7CwqXUYfmj9IEKoN582HlLQmw='
-    # url = 'https://rbac-stg.huolala.cn/api/auth/login'
-    # data = 'username=吴文光&password=19971024wwG&appid=hll-Fd8UszUhcwYL8Pr5'
-    # # data1 = json.dumps(data)
-    # hd = {'Content-Type':'application/x-www-form-urlencoded'}
-    # res = ak.post(url, data=data,headers=hd )
-    # res1 = ak.get(url1,)
+    token='1C1D9D030A3A4495BB95020206C62A5A'
+    return ak, token
     # print(res.text)
-    # token = res.json()['token']
-    # hd = {'token':token}
-    # print(token1)
-    # print(type(token1))
-    # print(res.text)
-    return ak,  token
+
+@pytest.fixture(scope='session')
+def token_admin():
+    """
+    后台token
+    """
+    ak = ApiKey()
+    token='RbxM3O3RSvvTGzIohK/e/uw43Rtux8B79F3hRUAanTDCK8K45LBYBUmiCtyKEk2R38HMvA3icR0Y5VEnS/+kXL8q/G34j8DJf5MnZML70LOkvZl5m4h2UDmdOEhHLwaZlqyTqhJvHKqP0kOPTnZjlcUPfoMEPMWqwXeFdAalL8A='
+    return ak,token
+
 
 # if __name__ == '__main__':
 #     token_fix()

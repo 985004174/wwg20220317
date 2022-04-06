@@ -6,9 +6,7 @@
 import pytest
 import requests
 
-from Api_keywords.api_key import ApiKey
-from config.token1 import token_fix
-from config.url_config import URL
+
 
 
 

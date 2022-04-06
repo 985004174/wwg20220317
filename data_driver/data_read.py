@@ -67,18 +67,6 @@ def test01(title_list,r_method_list):
     # return title,data,assert_value,except_value,dict_data
 
 
-# def test_01():
-#     res =getattr(ak,value[3])(**dict_data)
-#
-#     try:
-#         result=ak.get_text(res.text,assert_value)
-#         print('======实际结果=======')
-#         print(result==except_value)
-#
-#     except:
-#         print('======实际结果=======')
-#         print('请求参数有误，请检查')
-
 if __name__ == '__main__':
     # pytest.main(['-s','data_read.py'])
     pytest.main(['-s','data_read.py','--alluredir','./kevin','--clean-alluredir'])

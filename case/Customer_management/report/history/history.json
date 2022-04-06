@@ -1,58 +1,61 @@
 {
-  "c39f408e12341688ae40688c4c0fa396" : {
+  "68303b8751c42ff91c7ee445517658e3" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "131abad8b8bae8bb",
-      "status" : "passed",
+      "uid" : "3b204d12cda52fca",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 14 == 0",
       "time" : {
-        "start" : 1648555653856,
-        "stop" : 1648555654108,
-        "duration" : 252
+        "start" : 1649061291436,
+        "stop" : 1649061291695,
+        "duration" : 259
       }
     } ]
   },
-  "68303b8751c42ff91c7ee445517658e3" : {
+  "c39f408e12341688ae40688c4c0fa396" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9f3a973f598a4a53",
-      "status" : "passed",
+      "uid" : "1d58ce3ccad2f1a2",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'bool' object is not subscriptable",
       "time" : {
-        "start" : 1648555654168,
-        "stop" : 1648555655028,
-        "duration" : 860
+        "start" : 1649061291044,
+        "stop" : 1649061291360,
+        "duration" : 316
       }
     } ]
   },
   "f55cc378c6653528597a34b14a46cab0" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d4be006251efa5d1",
-      "status" : "passed",
+      "uid" : "989f55c451dc6da6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 14 == 0",
       "time" : {
-        "start" : 1648555655087,
-        "stop" : 1648555655187,
-        "duration" : 100
+        "start" : 1649061291715,
+        "stop" : 1649061291983,
+        "duration" : 268
       }
     } ]
   }

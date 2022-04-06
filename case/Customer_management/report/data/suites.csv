@@ -1,4 +1,8 @@
 "Status","Name","Duration in ms","Description"
-"passed","test_demo01.Test_Control#test_agent_selectList","860",""
-"passed","test_demo01.Test_Control#test_getUserInfo","252",""
-"passed","test_demo01.Test_Control#test_statistics","100",""
+"broken","test_demo01.Test_Control#test_getUserInfo","316",""
+"failed","test_demo01.Test_Control#test_agent_selectList","259","
+        获取经销商信息下拉列表
+        "
+"failed","test_demo01.Test_Control#test_statistics","268","
+        获取数据面板测试数据
+        "

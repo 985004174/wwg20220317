@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "c8180fe3e57d47eae9f825139a9d35bf",
-    "name" : "获取用户信息接口",
+    "uid" : "7c6ae35b0e3b6144d8375b886d1b30eb",
+    "name" : "LLP系统",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 3
+      "total" : 2
     }
   } ]
 }

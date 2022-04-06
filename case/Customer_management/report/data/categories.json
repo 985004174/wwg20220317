@@ -1,5 +1,57 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
-  "name" : "categories"
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: 'bool' object is not subscriptable",
+      "children" : [ {
+        "name" : "test_getUserInfo",
+        "uid" : "1d58ce3ccad2f1a2",
+        "parentUid" : "c592040e2306d463e6685639a7b719af",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649061291044,
+          "stop" : 1649061291360,
+          "duration" : 316
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c592040e2306d463e6685639a7b719af"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 14 == 0",
+      "children" : [ {
+        "name" : "test_agent_selectList",
+        "uid" : "3b204d12cda52fca",
+        "parentUid" : "3eb48891d65d5ec23cb460f069673e92",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649061291436,
+          "stop" : 1649061291695,
+          "duration" : 259
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_statistics",
+        "uid" : "989f55c451dc6da6",
+        "parentUid" : "3eb48891d65d5ec23cb460f069673e92",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649061291715,
+          "stop" : 1649061291983,
+          "duration" : 268
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3eb48891d65d5ec23cb460f069673e92"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

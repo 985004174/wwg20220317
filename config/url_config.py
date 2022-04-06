@@ -3,7 +3,10 @@
 # author： kevin.wu
 # datetime： 2022/3/29 10:15 AM 
 # ide： PyCharm
-URL = 'https://llp-one-admin-stg.huolala.cn/'
+URL_ADMIN = '/'
+'''
+业务后台url
+'''
 
-PORT='8080'
+
 
