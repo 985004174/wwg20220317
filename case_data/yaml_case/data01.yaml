@@ -1,0 +1,8 @@
+#data:
+#  - [ 1,2,3 ]
+#  - [ 0.5,0.3,0.8 ]
+#  - [ -0.1,0.1,0 ]
+#ids: ["int add test","float add test","int float test"]
+data:
+  - ['http://39.98.138.157:5000/api/login','admin','123456']
+ids: ['case1']
