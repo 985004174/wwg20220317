@@ -1,8 +1,0 @@
-"Status","Name","Duration in ms","Description"
-"broken","test_demo01.Test_Control#test_getUserInfo","316",""
-"failed","test_demo01.Test_Control#test_agent_selectList","259","
-        获取经销商信息下拉列表
-        "
-"failed","test_demo01.Test_Control#test_statistics","268","
-        获取数据面板测试数据
-        "

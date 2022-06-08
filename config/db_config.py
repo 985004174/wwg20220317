@@ -11,7 +11,7 @@ from pymysql.cursors import DictCursor
 
 
 # db_adress=
-sql='select id,user_id,company_id,user_name from agent where user_id=398363'
+sql=''
 class Db_Action():
     def __init__(self,db_adress):
         self.con=pymysql.connect(**db_adress)
