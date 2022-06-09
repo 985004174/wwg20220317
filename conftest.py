@@ -18,6 +18,7 @@ def get_token():
 
     token=res.json()['token']
     print(token)
+
     return token
 
 

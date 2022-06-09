@@ -30,6 +30,8 @@ class ApiKey:
     def post(self, url, data=None, **kwargs):
         return requests.post(url, data=data, **kwargs)
 
+
+    # 匹配过滤
     def get_text(self, data, key):
         dict_data = json.loads(data)
         # 数据源转换json，loads讲json格式内容转换为字典格式
@@ -50,6 +52,11 @@ class YamlData(Enum):
     STATUS='status'
 
 
+# class Denpendence_test:
+#     def denpendency_01(self):
+#         if
+
+
 class Http_Request_Control:
 
     def http_request(self,data, **kwargs):
@@ -60,18 +67,33 @@ class Http_Request_Control:
         '''
 
 
-        URL=data['data']['url']
-        METHOD=data['data']['method']
-        PARAMAS=data['data']['paramas']
-        STATUS=data['data']['status']
-        CODE=data['data']['code']
-        HEADERS=data['data']['headers']
+        URL=data['url']
+        METHOD=data['method']
+        PARAMAS=data['paramas']
+        STATUS=data['status']
+        CODE=data['code']
+        HEADERS=data['headers']
+        Dependence=data['Dependence']
+        Dependence_case=data['dependence_case']
+
+
+        if Dependence is False or Dependence_case is None:
+            res=requests.request(url=URL,method=METHOD,json=PARAMAS,headers=HEADERS,**kwargs)
+            return res
+        # 获取依赖的用例case
+        else:
+            a=data['dependence_case']
+            print(a)
+            return a,
+
+
+          # res=requests.request(url=URL,method=METHOD,json=PARAMAS,headers=HEADERS,**kwargs)
 
 
 
-        res=requests.request(url=URL,method=METHOD,json=PARAMAS,headers=HEADERS,**kwargs)
-        print(res.text)
-        return res
+
+
+
 
 
 
