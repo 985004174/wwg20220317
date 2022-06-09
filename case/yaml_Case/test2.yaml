@@ -1,0 +1,22 @@
+-
+  host: 1
+  url: http://39.98.138.157:5000/api/getproductinfo?productid=8888
+  method: get
+  paramas:
+  headers:
+    accept: application/json
+    token: 23657DGYUSGD126731638712GE18271H
+  code:
+  status:
+  title: 测试用例1
+-
+  host: 1
+  url: http://39.98.138.157:5000/api/getproductinfo?productid=8889
+  method: get
+  paramas:
+  headers:
+    accept: application/json
+    token: 23657DGYUSGD126731638712GE18271H
+  code:
+  status:
+  title: 测试用例1

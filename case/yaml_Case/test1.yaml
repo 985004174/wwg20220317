@@ -1,0 +1,37 @@
+-
+  case_id: 01
+  host: 1
+  url: http://39.98.138.157:5000/api/getuserinfo
+  method: get
+  paramas:
+    password:
+    username:
+  headers:
+    token: 23657DGYUSGD126731638712GE18271H
+  code:
+  status: 200
+  title: 测试用例1
+
+  Dependence: Ture
+#  被依赖的用例
+  dependence_case: test_1
+  dependence_data:
+
+-
+  case_id: 02
+  host: 2
+  url: http://39.98.138.157:5000/api/getuserinfo
+  method: get
+  paramas:
+    password:
+    username:
+  headers:
+    token: 23657DGYUSGD126731638712GE18271H
+  code:
+  status: 200
+  title: 测试用例2
+
+  Dependence: True
+  dependence_case: test_2
+  dependence_data:
+

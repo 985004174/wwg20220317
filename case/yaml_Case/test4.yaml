@@ -1,0 +1,14 @@
+-
+  host: 1
+  url: http://39.98.138.157:5000/api/createorder
+  method: post
+  paramas:
+  headers:
+    accept: application/json
+    token: 23657DGYUSGD126731638712GE18271H
+  code:
+  status:
+  title: 获取用户信息
+  Dependence: Ture
+    Dependence_case:
+      dependence_data:
