@@ -26,6 +26,7 @@ def test_get_token(account,pwd,msg):
          }
     hd = {'Content-Type': 'application/json'}
     res=ak.post(url=url,data=data,headers=hd)
+    print('测试')
     # print(res.text)
     assert res.json()['msg'] == msg, '登录成功'
     # log.info('错误信息')

@@ -14,6 +14,7 @@ class KeyWord:
         return requests.get(url,json=data,**kwargs)
 
     def post(self,url,data,**kwargs):
+
         return requests.post(url,json=data,**kwargs)
 
     def get_text(self, data, key):
@@ -30,3 +31,4 @@ class KeyWord:
         # jsonpath返回list，失败返回false，
         # 根目录下面的任意键,jsonpath还需要学习
         return value[0]
+
