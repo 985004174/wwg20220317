@@ -10,7 +10,7 @@
     token: 23657DGYUSGD126731638712GE18271H
   code:
   status: 200
-  title: 测试用例1
+  title: 获取用户信息
 
   Dependence: Ture
 #  被依赖的用例

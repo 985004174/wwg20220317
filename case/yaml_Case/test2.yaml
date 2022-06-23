@@ -8,7 +8,7 @@
     token: 23657DGYUSGD126731638712GE18271H
   code:
   status:
-  title: 测试用例1
+  title: 获取商品信息
 -
   host: 1
   url: http://39.98.138.157:5000/api/getproductinfo?productid=8889

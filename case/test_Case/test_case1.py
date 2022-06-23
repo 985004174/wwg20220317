@@ -10,23 +10,23 @@ from Api_keywords.api_key import Http_Request_Control, ApiKey
 from Api_keywords.yaml_read import Ymal_Control
 
 
-@allure.epic('测试1')
-class Test_01:
-    # 获取用户信息
-    file = '../yaml_Case/test1.yaml'
-    yaml_data = Ymal_Control().read_yaml(filepath=file)
-
-    @pytest.mark.parametrize('data', yaml_data)
-    def test_1(self, data):
-        res = Http_Request_Control().http_request(data)
-        allure.dynamic.title(data['title'])
-        userid = ApiKey().get_text(res.text, 'userid')
-        openid = ApiKey().get_text(res.text, 'openid')
-        # print(res.json()['httpstatus'])
-
-        # print(data['case_id'])
-        assert res.json()['httpstatus'] == data['status'], '测试通过'
-        return userid, openid
+# @allure.epic('测试1')
+# class Test_01:
+#     # 获取用户信息
+#     file = '../yaml_Case/test1.yaml'
+#     yaml_data = Ymal_Control().read_yaml(filepath=file)
+#
+#     @pytest.mark.parametrize('data', yaml_data)
+#     def test_1(self, data):
+#         res = Http_Request_Control().http_request(data)
+#         allure.dynamic.title(data['title'])
+#         userid = ApiKey().get_text(res.text, 'userid')
+#         openid = ApiKey().get_text(res.text, 'openid')
+#         # print(res.json()['httpstatus'])
+#
+#         # print(data['case_id'])
+#         assert res.json()['httpstatus'] == data['status'], '测试通过'
+#         return userid, openid
 
     # 获取商品信息
     # file = '../yaml_Case/test2.yaml'
@@ -59,6 +59,6 @@ class Test_01:
     #
 
 
-
-if __name__ == '__main__':
-    pytest.main(['-s'])
+#
+# if __name__ == '__main__':
+#     pytest.main(['-s'])

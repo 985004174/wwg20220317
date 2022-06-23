@@ -1,8 +1,11 @@
 -
   host: 1
-  url: http://39.98.138.157:5000/api/createorder
+  url: http://39.98.138.157:5000/api/addcart
   method: post
   paramas:
+    openid:
+    userid:
+    productid:
   headers:
     accept: application/json
     token: 23657DGYUSGD126731638712GE18271H

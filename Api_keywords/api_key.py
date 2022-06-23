@@ -32,7 +32,8 @@ class ApiKey:
 
 
     # 匹配过滤
-    def get_text(self, data, key):
+
+    def get_text(self,data, key):
         dict_data = json.loads(data)
         # 数据源转换json，loads讲json格式内容转换为字典格式
         value = jsonpath.jsonpath(dict_data, '$..{0}'.format(key))
@@ -77,15 +78,15 @@ class Http_Request_Control:
         Dependence_case=data['dependence_case']
 
 
-        if Dependence is False or Dependence_case is None:
-            res=requests.request(url=URL,method=METHOD,json=PARAMAS,headers=HEADERS,**kwargs)
-            return res
-        # 获取依赖的用例case
-        else:
-            a=data['dependence_case']
-            print(a)
-            return a,
-
+        # if Dependence is False or Dependence_case is None:
+        res=requests.request(url=URL,method=METHOD,json=PARAMAS,headers=HEADERS,**kwargs)
+        return res
+        # # 获取依赖的用例case
+        # else:
+        #     a=data['dependence_case']
+        #     print(a)
+        #     return a
+        #
 
           # res=requests.request(url=URL,method=METHOD,json=PARAMAS,headers=HEADERS,**kwargs)
 
