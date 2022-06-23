@@ -46,7 +46,6 @@ class Test_Case:
             res2=ApiKey().post(url=url,headers=hd,json=data)
             print(res2.text)
         with allure.step('接口返回信息校验'):
-            print(res2.text)
             print(datetime.now())
             result=ApiKey().get_text(res2.text,'result')
             assert 'success' == result
