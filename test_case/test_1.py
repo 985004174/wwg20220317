@@ -18,6 +18,7 @@ from Api_keywords.api_key import ApiKey
 from Api_keywords.yaml_read import Ymal_Control
 
 
+from datetime import datetime
 @allure.epic('用户信息模块')
 class Test_Case:
 
@@ -46,12 +47,13 @@ class Test_Case:
             print(res2.text)
         with allure.step('接口返回信息校验'):
             print(res2.text)
+            print(datetime.now())
             result=ApiKey().get_text(res2.text,'result')
             assert 'success' == result
 
 
-if __name__ == '__main__':
-    # pytest.main(['-vs', 'test_1.py'])
-    pytest.main(['test_1.py','--alluredir','../report/report','--clean-alluredir'])
-    os.system('allure generate ../report/report -o ./allure-report --clean')
-    # os.system('allure server ../report')
+# if __name__ == '__main__':
+#     # pytest.main(['-vs', 'test_1.py'])
+#     pytest.main(['test_1.py','--alluredir','../report/report','--clean-alluredir'])
+#     os.system('allure generate ../report/report -o ./allure-report --clean')
+#     # os.system('allure server ../report')
