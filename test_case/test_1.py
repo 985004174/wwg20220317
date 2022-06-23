@@ -47,6 +47,7 @@ class Test_Case:
             print(res2.text)
         with allure.step('接口返回信息校验'):
             print(datetime.now())
+            print('自动化构建测试')
             result=ApiKey().get_text(res2.text,'result')
             assert 'success' == result
 
